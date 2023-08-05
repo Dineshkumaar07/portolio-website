@@ -44,7 +44,7 @@ const Projects = () => {
             title="Recipe App"
             desc="This is a MERN App. It allows to create accounts and used Bcrypt encryption for security . Here users can create recipe and able to see recipe created by other users . I also added save feature so that recipes created by other user can be saved."
             image={recipe}
-            link="https://recipe-app-dineshms.netlify.app/"
+            link="https://recipe-app-dineshms.netlify.app/ "
           />
         </div>
         <div data-aos="fade-right" className="w-full flex justify-center">

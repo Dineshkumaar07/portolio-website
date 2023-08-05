@@ -10,7 +10,7 @@ const ProjectTemplate = ({ title, desc, image, link }) => {
         <h1 className="font-bold text-lg mb-3 tracking-wider">{title}</h1>
         <p className="leading-8 tracking-wider">{desc}</p>
         <a
-          href={link}
+          href={link} target="_blank"  rel="noreferrer"
           className="bg-[#7843e9] px-5 py-2 mt-7 rounded-md text-[#FBFFFF] text-md font-bold tracking-widest hover:shadow-purple-500 shadow-[0px_5px_35px_2px_[#7843e9]] duration-150 inline-block "
         >
           DEMO

@@ -1,7 +1,5 @@
-
 import React, { useState } from "react";
 import { Link } from "react-scroll";
-import photo from "../assets/Photo1.jpeg"
 
 const Navbar = () => {
   let Links = [
@@ -16,8 +14,16 @@ const Navbar = () => {
       <div className="md:flex items-center justify-between py-5 bg-white md:px-10 px-9 ">
         <div className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins]  ">
           {/* <img src={photo} className="w-10 h-10 " alt="" /> */}
-          <p>Dinesh MS</p>
-
+          <Link
+            to="home"
+            spy={true}
+            smooth={true}
+            duration={500}
+            offset={-30}
+            className=""
+          >
+            Dinesh MS
+          </Link>
         </div>
         <div
           onClick={() => setOpen(!open)}
@@ -37,7 +43,9 @@ const Navbar = () => {
               className="md:ml-16 text-xl md:my-0 my-7 cursor-pointer"
             >
               <Link
-                onClick={() => {open?setOpen(!open):setOpen(open)}}
+                onClick={() => {
+                  open ? setOpen(!open) : setOpen(open);
+                }}
                 to={link.link}
                 spy={true}
                 smooth={true}
