@@ -35,11 +35,18 @@ const Home = () => {
         </Link>
         <div className={sideMenu}>
           <a
-            href="https://www.linkedin.com/in/dinesh-kumaar-391022234/"
+            href="https://www.linkedin.com/in/dinesh-kumaar/"
             target="_blank"
             rel="noreferrer"
           >
             <Linkedin />
+          </a>
+          <a
+            href="https://github.com/Dineshkumaar07"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Github />
           </a>
           <a
             href="https://twitter.com/DineshK29987581"
@@ -49,13 +56,6 @@ const Home = () => {
             <Twitter />
           </a>
 
-          <a
-            href="https://github.com/Dineshkumaar07"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Github />
-          </a>
           <a
             href="https://www.instagram.com/dinesh____ms/"
             target="_blank"

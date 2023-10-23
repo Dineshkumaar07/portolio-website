@@ -13,20 +13,31 @@ const Footer = () => {
           </p>
         </div>
         <div className="">
-          <h1 className="font-bold tarcking-wider text-2xl mb-5 text-center ">Social</h1>
+          <h1 className="font-bold tarcking-wider text-2xl mb-5 text-center ">
+            Social
+          </h1>
           <div className="flex md:gap-5 gap-3 h-6">
-            <img
-              src="https://d33wubrfki0l68.cloudfront.net/7f29579dde49e02480372aa49f7189c5536b0118/34b92/assets/png/linkedin-ico.png"
-              alt=""
-            />
-            <img
-              src="https://d33wubrfki0l68.cloudfront.net/5557d5a11584d7201a38ee1a95200f57a4cc0f88/15085/assets/png/github-ico.png"
-              alt=""
-            />
-            <img
-              src="https://d33wubrfki0l68.cloudfront.net/ef67339f7016cb09ba66366c1dc9145ac69f2a21/feca1/assets/png/twitter-ico.png"
-              alt=""
-            />
+            <a href="https://www.linkedin.com/in/dinesh-kumaar/">
+              <img
+                className="h-7"
+                src="https://d33wubrfki0l68.cloudfront.net/7f29579dde49e02480372aa49f7189c5536b0118/34b92/assets/png/linkedin-ico.png"
+                alt=""
+              />
+            </a>
+
+            <a href="https://github.com/Dineshkumaar07">
+              <img
+                src="https://d33wubrfki0l68.cloudfront.net/5557d5a11584d7201a38ee1a95200f57a4cc0f88/15085/assets/png/github-ico.png"
+                alt=""
+              />
+            </a>
+            <a href="https://twitter.com/DineshK29987581">
+              <img
+                className="h-7"
+                src="https://d33wubrfki0l68.cloudfront.net/ef67339f7016cb09ba66366c1dc9145ac69f2a21/feca1/assets/png/twitter-ico.png"
+                alt=""
+              />
+            </a>
           </div>
         </div>
       </div>
