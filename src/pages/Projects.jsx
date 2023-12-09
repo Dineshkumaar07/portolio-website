@@ -34,7 +34,7 @@ const Projects = () => {
         <div data-aos="fade-right" className="w-full flex justify-center">
           <ProjectTemplate
             title="Task Management App"
-            desc="This is a MERN App. Motive is to make simple CRUD App. Users can create acoount and use that to store their tasks. I used bcrypt for encrypting tasks and password to maintain privacy of the users."
+            desc="This is a MERN App. Motive is to make simple CRUD App. Users can create account and use that to store their tasks. I used bcrypt for encrypting tasks and password to maintain privacy of the users."
             image={todo}
             link="https://todo-app-dineshms.onrender.com/"
           />

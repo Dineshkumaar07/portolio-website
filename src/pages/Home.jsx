@@ -7,7 +7,7 @@ import { Link } from "react-scroll";
 
 const Home = () => {
   const sideMenu =
-    "absolute left-0 bg-white  rounded-lg flex flex-col drop-shadow-[3px_5px_10px_rgba(0,0,0,0.25)] hidden lg:block";
+    "absolute left-0 bg-white rounded-lg flex flex-col drop-shadow-[3px_5px_10px_rgba(0,0,0,0.25)] hidden lg:block";
 
   return (
     <div className="bg-black/5 w-full h-screen font-poppins  px-5 md:px-0 ">
